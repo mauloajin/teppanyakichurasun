@@ -1,0 +1,8 @@
+.next
+node_modules
+out
+.vercel
+.pnpm-cache
+.pnpm-home
+*.log
+.DS_Store
