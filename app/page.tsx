@@ -2,10 +2,10 @@ const officialSite = "https://teppanyakichurasun.jimdosite.com/";
 const menuUrl = "https://teppanyakichurasun.jimdosite.com/%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC/";
 const contactUrl = "https://teppanyakichurasun.jimdosite.com/%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/";
 const googleBusinessUrl = "https://maps.app.goo.gl/9TPTcRWdWKwwBaTL7";
-const mapQuery = encodeURIComponent("鉄板焼きダイニング 美らSUN 沖縄県国頭郡本部町浜元189");
+const mapQuery = encodeURIComponent("鉄板焼きダイニング 美らSUN｜Teppanyaki steak Restaurant 沖縄県国頭郡本部町浜元189");
 
 const japaneseKeywords = [
-  "鉄板焼きダイニング 美らSUN",
+  "鉄板焼きダイニング 美らSUN｜Teppanyaki steak Restaurant",
   "美らSUN",
   "CHURASUN",
   "沖縄 鉄板焼き",
@@ -111,7 +111,8 @@ const japaneseKeywords = [
 ];
 
 const englishKeywords = [
-  "Teppanyaki Dining Chura SUN",
+  "鉄板焼きダイニング 美らSUN｜Teppanyaki steak Restaurant",
+  "Teppanyaki steak Restaurant",
   "Chura SUN Motobu",
   "CHURASUN Okinawa",
   "Motobu teppanyaki restaurant",
@@ -219,8 +220,8 @@ const faqs = [
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Restaurant",
-  name: "鉄板焼きダイニング 美らSUN",
-  alternateName: ["CHURASUN", "Teppanyaki Dining Chura SUN"],
+  name: "鉄板焼きダイニング 美らSUN｜Teppanyaki steak Restaurant",
+  alternateName: ["CHURASUN", "Teppanyaki steak Restaurant"],
   url: "https://teppanyakichurasun.vercel.app/",
   telephone: "+81-980-43-6886",
   address: {
@@ -262,7 +263,7 @@ export default function Home() {
       />
 
       <header className="site-header">
-        <a className="brand" href="#top" aria-label="鉄板焼きダイニング 美らSUN">
+        <a className="brand" href="#top" aria-label="鉄板焼きダイニング 美らSUN｜Teppanyaki steak Restaurant">
           美らSUN
         </a>
         <nav aria-label="店舗内ナビゲーション">
@@ -277,8 +278,8 @@ export default function Home() {
       <section className="hero" id="top">
         <div className="hero-copy">
           <p className="eyebrow">沖縄県本部町浜元 / Teppanyaki Steak & BBQ</p>
-          <h1>鉄板焼きダイニング 美らSUN</h1>
-          <p className="roman">CHURASUN / Teppanyaki Dining Chura SUN</p>
+          <h1>鉄板焼きダイニング 美らSUN｜Teppanyaki steak Restaurant</h1>
+          <p className="roman">CHURASUN / Teppanyaki steak Restaurant</p>
           <p className="lead">
             国産牛ステーキ、沖縄県産車エビの海鮮コース、テラスで楽しむ予約制BBQを案内している、本部町浜元の鉄板焼きダイニングです。
             公式サイト掲載情報をもとに、営業時間、住所、電話番号、メニュー、アクセス、English Guideをまとめています。
@@ -373,11 +374,11 @@ export default function Home() {
           <dl className="info-list">
             <div>
               <dt>店舗名</dt>
-              <dd>鉄板焼きダイニング 美らSUN</dd>
+              <dd>鉄板焼きダイニング 美らSUN｜Teppanyaki steak Restaurant</dd>
             </div>
             <div>
               <dt>英語表記</dt>
-              <dd>Teppanyaki Dining Chura SUN</dd>
+              <dd>Teppanyaki steak Restaurant</dd>
             </div>
             <div>
               <dt>ローマ字表記</dt>
@@ -432,7 +433,7 @@ export default function Home() {
         <div className="map-layout">
           <div className="map-card">
             <iframe
-              title="鉄板焼きダイニング 美らSUN 周辺地図"
+              title="鉄板焼きダイニング 美らSUN｜Teppanyaki steak Restaurant 周辺地図"
               src={`https://www.google.com/maps?q=${mapQuery}&output=embed`}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
@@ -453,10 +454,10 @@ export default function Home() {
       <section className="section english" id="english">
         <div className="section-heading">
           <p className="eyebrow">English Guide</p>
-          <h2>Teppanyaki Dining Chura SUN</h2>
+          <h2>Teppanyaki steak Restaurant</h2>
         </div>
         <p>
-          Teppanyaki Dining Chura SUN is a teppanyaki steak and BBQ restaurant in Hamamoto, Motobu, Okinawa.
+          Teppanyaki steak Restaurant is a teppanyaki steak and BBQ restaurant in Hamamoto, Motobu, Okinawa.
           The official website introduces Japanese beef steak courses, an Okinawan kuruma prawn seafood course,
           Okinawan vegetables, beni-imo soup, and reservation-only BBQ options.
         </p>
@@ -504,7 +505,7 @@ export default function Home() {
       </section>
 
       <footer className="footer">
-        <p>鉄板焼きダイニング 美らSUN / Teppanyaki Dining Chura SUN</p>
+        <p>鉄板焼きダイニング 美らSUN｜Teppanyaki steak Restaurant</p>
         <p>情報源: 公式サイト、GoogleビジネスプロフィールURL</p>
       </footer>
     </main>
